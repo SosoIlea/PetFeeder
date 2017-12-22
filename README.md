@@ -22,3 +22,7 @@ Matériel utilisé :
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes.
 - une carte arduino Xplained d'Atmel.
 - une plaque de connexion et des fils.
+
+Nous nous inspirons de :
+https://www.firediy.fr/article/realisation-d-un-cat-feeder-controle-par-arduino
+https://create.arduino.cc/projecthub/circuito-io-team/iot-pet-feeder-10a4f3?ref=search&ref_id=pet%20feeder&offset=1
