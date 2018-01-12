@@ -18,7 +18,7 @@ Matériel utilisé :
 - des "toboggans" reliés aux bouteilles pour faire tomber les croquettes dans la gamelle.
 - 2 gamelles.
 - 2 moteurs pas à pas qui feront tourner les molettes des bouteilles. 
-- un systeme bluetooth par téléphone relié aux moteurs. 
+- un systeme Heltec WiFi LoRa 32 par téléphone relié aux moteurs. 
 - 6 LEDS (2 rouges, 2 oranges, 2 vertes) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, orange=prévention).
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes.
 - une carte arduino Xplained d'Atmel.
