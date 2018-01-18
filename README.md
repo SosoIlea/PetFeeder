@@ -7,6 +7,8 @@ Polytech'Nice
 Sophia
 
 Nous avons comme projet un distributeur de croquettes pour chien et chat : le PetFeeder.
+Nous avons choisi ce projet car nous aimons les animaux domestiques en particulier les chats et les chiens que nous possedons. 
+
 Le but de ce projet : à l'aide du téléphone, pouvoir gerer la quantité de croquettes distribuées, choisir à quel animal elles sont destinées. Le projet permettra d'indiquer si le réservoir est vide ou plein. Le dispositif se déclenche a des horaires précis, ce qui 
 permet au maître de ne pas être forcément présent. Si l'utilisateur est présent, une notification est envoyée au maître pour demander confirmation (au cas où l'animal aurait mangé plus tôt pour des raisons particulières).
 
