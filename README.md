@@ -1,4 +1,5 @@
 
+
 # PetFeeder
 ![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
@@ -25,6 +26,7 @@ Matériel utilisé :
 - 6 LEDS (2 rouges, 2 oranges, 2 vertes) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, orange=prévention).
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes.
 - une carte arduino Xplained d'Atmel.
+- une horloge RTC 1302
 - des resistances 
 - une plaque de connexion et des fils.
 
