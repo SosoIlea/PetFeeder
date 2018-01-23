@@ -20,3 +20,7 @@ Pour que notre projet se déclenche à des horaires précis, il faudra que l'on 
 Nous avons donc programmé et fait les branchements du RTC1302. 
 Nous avons aussi fini les téléchargements nécessaires pour notre application. 
 Probleme rencontré : le moteur n'est pas assez puissant pour faire tourner la molette. 
+
+Le 23/01/2018:
+Première présentation orale de notre projet.
+Programme pour les horaires en testant avec une heure et un moteur.
