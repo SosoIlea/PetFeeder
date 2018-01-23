@@ -18,3 +18,7 @@ Début de la recherche pour fixer le moteur à la molette, le bout du moteur eta
 Branchement et programme de l'horloge arduino.
 Trouver un nom d'application. 
 Probleme rencontré : le moteur n'est pas assez puissant pour faire tourner la molette. 
+
+Le 23/01/2018:
+Première présentation orale de notre projet.
+Programme pour les horaires en testant avec une heure et un moteur.
