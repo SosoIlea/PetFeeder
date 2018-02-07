@@ -24,3 +24,7 @@ Probleme rencontré : le moteur n'est pas assez puissant pour faire tourner la m
 Le 23/01/2018:
 Première présentation orale de notre projet.
 Programme pour les horaires en testant avec une heure et un moteur.
+
+Le 07/02/18:
+RDV avec le Fablab, creation de plan 2D avec LibreCAD pour faire tourner la molette avec le moteur. 
+Reception de LORA, on l'a soudé.
