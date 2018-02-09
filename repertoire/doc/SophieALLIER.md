@@ -27,3 +27,6 @@ Le 07/02/18:
 RDV avec le Fablab, creation de plan 2D avec LibreCAD pour faire tourner la molette avec le moteur. 
 Reception de LORA, on l'a soudé.
 
+Le 08/02/18:
+Nous sommes allées au FatLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collés. Nous avons donc des molettes qui tournent avec les moteurs. 
+
