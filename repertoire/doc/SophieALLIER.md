@@ -28,5 +28,5 @@ RDV avec le Fablab, creation de plan 2D avec LibreCAD pour faire tourner la mole
 Reception de LORA, on l'a soudé.
 
 Le 08/02/18:
-Nous sommes allées au FabLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collés. Nous avons donc des molettes qui tournent avec les moteurs. 
+Nous sommes allées au FabLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collé. Nous avons donc des molettes qui tournent avec les moteurs. 
 
