@@ -1,5 +1,3 @@
-
-
 # PetFeeder
 ![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
@@ -15,21 +13,18 @@ permet au maître de ne pas être forcément présent. Si l'utilisateur est pré
 
 Notre projet ressemblera à : 
 (https://www.google.fr/search?client=ubuntu&channel=fs&dcr=0&biw=1375&bih=800&tbm=isch&sa=1&ei=n8g8WovvCtCwsAfBn4mIAQ&q=pet+feeder+arduino&oq=pet+feeder+ar&gs_l=psy-ab.3.0.0i19k1.12909.16918.0.17567.19.15.3.1.1.0.150.1182.14j1.15.0....0...1c.1.64.psy-ab..0.19.1223...0j0i67k1j0i30k1j0i13k1j0i13i30k1j0i5i30k1j0i24k1.0.nzgMk8fEw_0#imgrc=LQdHoUZ9O2IWuM:)
+http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/
 
 Matériel utilisé : 
 - une boite qui contiendra l'ensemble pour un côté esthétique.
 - 2 bouteilles qui contiendront croquettes pour chat et croquettes pour chien séparemment. 
-- des "toboggans" reliés aux bouteilles pour faire tomber les croquettes dans la gamelle.
 - 2 gamelles.
 - 2 moteurs pas à pas qui feront tourner les molettes des bouteilles. 
-- un systeme Heltec WiFi LoRa 32 par téléphone relié aux moteurs. 
-- 6 LEDS (2 rouges, 2 oranges, 2 vertes) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, orange=prévention).
+- un systeme Bluetooth.
+- 6 LEDS (2 rouges, 2 jaunes, 2 vertes) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, jaune=prevention).
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes.
 - une carte arduino Xplained d'Atmel.
 - une horloge RTC 1302
 - des resistances 
 - une plaque de connexion et des fils.
-
-Nous nous inspirons de :
-https://www.firediy.fr/article/realisation-d-un-cat-feeder-controle-par-arduino
-https://create.arduino.cc/projecthub/circuito-io-team/iot-pet-feeder-10a4f3?ref=search&ref_id=pet%20feeder&offset=1
+- un systeme helice tuyau relie au bout de la bouteille et au moteur.
