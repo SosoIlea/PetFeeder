@@ -28,7 +28,7 @@ Cette application nommée Bluetooth Serial Controler permet de :    
 Cette application est modulable : on utilise les boutons de notre choix, que l'on place à notre guise.
 
 ##  Inspirations du projet :
-Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/). Esthétiqument il se rapproche de ce projet : ![PetFeeder]()
+Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/). Esthétiqument il se rapproche de ce projet : ![PetFeeder](https://www.firediy.fr/images/articles/catfeeder/final.jpg)
 
 ## Matériel utilisé : 
 - une boite qui contiendra l'ensemble pour un côté esthétique
