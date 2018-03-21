@@ -43,10 +43,18 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 - un systeme helice-tuyau en T relié au bout de la bouteille pour faire tomber les croquettes
 
 ## Avancé du projet :
-- [X] 
-- [ ] 
+- [X] Programmer les capteurs de distance avec les LEDs, programmer les horaires de distribution
+- [ ] Programmer les moteurs et trouver quelle vitesse leur donner, ainsi que le nombre de tours à effectuer pour chaque animal
+- [X] Imprimer les hélices et autres composants (les fichiers sont dans le lien donné plus haut)
+- [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés pour chaque animal
+- [ ] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
+- [ ] Relier le téléphone et le PetFeeder en Bluetooth
+- [ ] Créer la boîte et finaliser l'esthétique
+
+## Problèmes rencontrés et solutions proposées :
+
 
 ## Bonus :
 Bien que nous parlions de chiens et chats, ce projet peut être adapté à différents animaux (poules, lapins) voire même redimensionné pour de plus gros animaux (chevaux, vaches, ...).
 
-Ensuite, nous souhaitons chacune récupérer ce magnifique projet, nous allons donc créer la boîte et utiliser du matériel différent pour chaque animal afin de pouvoir "couper".
+Ensuite, nous souhaitons chacune récupérer ce magnifique projet, nous allons donc créer la boîte et utiliser du matériel différent pour chaque animal afin de pouvoir "couper" le projet.
