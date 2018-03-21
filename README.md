@@ -6,7 +6,7 @@ Polytech'Nice
 Sophia.
 Ce projet est rendu réalisable grâce à nos enseignants : Monsieur Ferrero et Monsieur Masson.
 
-Description du projet 
+Description du projet :
 Nous avons comme projet un distributeur de croquettes pour chien et chat : le PetFeeder.
 Nous avons choisi ce projet car nous aimons les animaux domestiques en particulier les chats et les chiens que nous possedons. 
 
