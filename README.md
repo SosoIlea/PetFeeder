@@ -38,7 +38,7 @@ Cette application nommée Bluetooth Serial Controler permet de :    
 Cette application est modulable : on utilise les boutons de notre choix, que l'on place à notre guise.
 
 ##  Inspirations du projet :
-Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/). Esthétiqument il se rapproche de ce projet : ![PetFeeder](https://www.firediy.fr/images/articles/catfeeder/final.jpg)
+Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/). Esthétiquement il se rapproche de ce projet : ![PetFeeder](https://www.firediy.fr/images/articles/catfeeder/final.jpg)
 
 ## Matériel utilisé : 
 - une boite qui contiendra l'ensemble pour un côté esthétique
@@ -64,7 +64,8 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 - [ ] Créer la boîte et finaliser l'esthétique
 
 ## Problèmes rencontrés et solutions proposées :
-
+Notre projet de départ devait permettre de distribuer les croquettes à l'aide de molettes gérant la quantité de croquettes. Mais après avoir fixé le moteur à celles-ci et en essayant avce de véritables croquettes, nous nous sommes rendu compte que ce n'était pas la bonne solution. En effet aucune croquette ne tombait car elles faisaient pression sur les bords de la bouteilles et empechaient la molette de tourner (même avce la force humaine rien ne bougeait). Nous avons donc dû chercher un autre moyen de les faire tomber (sans croquettes, pas de projet ...). On nous a alors conseillé le site mis plus haut, qui utilsait une hélice et un tuyau, ainsi qu'un moteur plus puissant.
+Ce problème nous ayant fait perdre un certain temps, nous n'avons pas pu réaliser notre objectif de départ qui était d'utiliser le module Lora (qui fonctionne dans un rayon de 10km) en créant notre propre application (qui nécessite de très bonnes bases en programmation, et 30h de travail). Nous nous rabattons donc sur le module Bluetooth (qui fonctionne dans un rayon de 10m) pour lequel des applications existent déja et permettent de choisir différents outils utiles à notre projet.
 
 ## Bonus :
 Bien que nous parlions de chiens et chats, ce projet peut être adapté à différents animaux (poules, lapins) voire même redimensionné pour de plus gros animaux (chevaux, vaches, ...).
