@@ -10,6 +10,7 @@ Ce projet est rendu réalisable grâce à nos enseignants : Monsieur Ferrero et 
 Notre groupe est composé de : 
 * Sophie ALLIER
 * Iléa DUFRAIGNE
+
 Nous avons décidé de former ce superbe groupe car nous partageons les mêmes idées et souhaitions faire le même projet -projet dont nous avons trouvé l'idée bien avant de le commencer, l'année dernière, lorsque les étudiants du niveau supérieur et les professeurs abordaient ce sujet-.
 
 ## Description du projet :
