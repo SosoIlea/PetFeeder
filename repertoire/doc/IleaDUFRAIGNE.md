@@ -8,32 +8,37 @@ Nous avons esquissé des dessins et des schémas pour visualiser notre projet et
 Enfin, nous avons réfléchi à un planning pour s'organiser au mieux et ne pas prendre de retard, même si nous rencontrions des problèmes.
 
 ## Le 12/01/2018 : 
-Début de la manipulation du moteur pas à pas et son driver : branchement & programme. 
-Approximation du nombre de tours à faire selon chaque animal.
-Essais en fixant le moteur sur la molette du distributeur. 
+J'ai commencé à manipuler les moteurs pas à pas et leurs drivers. J'ai fait les branchements et programmes. J'ai ensuite apprivoisé le programme afin de savoir combien de tours étaient nécessaires selon chaque animal.
+Nous avons ensuite fait des essais sur la molette du distributeur. Il faudra trouver un moyen de bien fixer à la séance suivante.
 
-Discussion avec M Ferrero pour la connexion : au départ, nous partions sur un système bluetooth, mais M Ferrero nous a explique ses limites et nous a conseillé d'utiliser le systeme LoRa avec le materiel suivant : Heltec WiFi LoRa 32 qui contient un systeme LoRa, Bluetooth, Wifi, une mini carte Arduino intégrée et un écran. Ce systeme nous permettra, contrairement au bluetooth, d'être en connexion dans un rayon de 10km. 
-Probleme rencontré: Pour pouvoir gerer notre communication, il nous faut une application Android sur notre telephone comme celle que l'on avait pour le Bluetooth, or cette application n'existant pas, il faudra la créer. 
+Nous avons ensuite discuté avce M. Ferrero de la connexion : nous pensions utiliser le bluetooth, nous partirons sur du système Lora (avce une carte Heltec wifi Lora 32) car il présente moins de limites que le bluetooth. En effet, ce système permet d'être en connexion dans un rayon de 10km contre 10m pour le bluetooth. Cette carte possède aussi un système Wifi et un écran LCD.
+C'est là que nous rencontrons un problème : pour pouvoir gérer notre communication, il nous faut une application Android sur notre téléphone comme celle que l'on avait pour le Bluetooth, or cette application n'existant pas, il faudra la créer. Pour cela, un niveau suffisant en progframmation est nécessaire, ce Première présentation orale de notre projet.
+Programme pour les horaires en testant avec une heure et un moteur.
+qui n'est pas particulièrement notre cas, et il faut environ 30h pour créer l'application (temps que nous n'avons pas vraiment ...). 
 
 ## Le 18/01/2018:
 Pour que notre projet se déclenche à des horaires précis, il faudra que l'on sache l'heure.
-Nous avons donc programmé et fait les branchements du RTC1302. 
-Nous avons aussi fini les téléchargements nécessaires pour notre application. 
-Probleme rencontré : le moteur n'est pas assez puissant pour faire tourner la molette. 
+Nous avons donc programmé et fait les branchements de l'horloge RTC1302. Il faudra, une fois le projet finalisé, faire attention, l'horloge tourne en étant alimentée, si nous la débranchons l'heure ser décalée. C'est pour cela qu'il faudra relier la pile rapidement pour n'avoir qu'un trés léger décalage.
+Nous avons aussi fini les téléchargements nécessaires pour créer notre application. 
+Nous avons dû faire face à un problème : le moteur n'est pas assez puissant pour que la molette tourne bien, ou la molette est trop coincée dans la bouteille. Nous avons dnoc découpé la molette pour qu'elle tourne mieux. Nous n'avons toujours pas fixé les moteurs, il nous faut une sorte de moule reliant molette et bout du moteur pour que tout tourne.
 
 ## Le 23/01/2018:
-Première présentation orale de notre projet.
-Programme pour les horaires en testant avec une heure et un moteur.
+Nous avons fait notre première présentation orale avec un diaporama et avons regardé celles des autres.
+Nous avons relié l'horloge à un moteur pour vérifier que les horaires marchent, ce qui est le cas.
 
 ## Le 07/02/18:
-RDV avec le Fablab, creation de plan 2D avec LibreCAD pour faire tourner la molette avec le moteur. 
-Reception de LORA, on l'a soudé.
+Nous avons pris rendez-vous avce le FabLab afin de créer les moules pour fixer molettes et moteurs. Nous avons pour cela créé des plans sur LibreCAD en 2D.
+Nous avons reçu la carte Lora, qu'il a fallu souder.
 
 ## Le 08/02/18:
-Nous sommes allées au FabLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collé. Nous avons donc des molettes qui tournent avec les moteurs. 
+Nous sommes allées au FabLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collé nos moules. Nous avons donc des molettes qui tournent avec les moteurs. La prochaine étape est de tester ceci avce de vraies croquettes pour voir si tout se passe bien.
 
 ## Le 16/03/18: 
-Test avec des vraies croquettes : rencontre d'un probleme majeur pour notre projet, les croquettes se bloquent contre la paroi de la bouteille ce qui empeche la molette de tourner. Le systeme ne fonctionne donc pas alors qu'il fonctionnait auparavant avec d autre produit. Nous avons donc un probleme que nous n'étions pas cense rencontrer... Nous avons discuté avec les professeurs et la seule solution que nous avons trouve est d essayer avec un autre systeme: nous devons donc tout recommencer ce qui est une perte de temps incroyable. Notre nouveau systeme sera inspiré de celui ci : http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/ 
-Nous devons donc faire un tuyau et une helice au fablab puis les fixer au bout des bouteilles. Nous ne savons pas encore si nous devons changer de moteur. 
-Notre projet s'annonce donc plus complique que prevu, nous avons pris la decision de ne pas utiliser le systeme Lora mais de ne passer que par le bluetooth. 
-Nous avons commence a fabriquer la boite mais nous ne pouvons pas la finir car il nous manque trop d elements pour savoir sa dimension exacte.
+Nous avons testé le dispositif avce des vraies croquettes et c'est là que nous avons rencontré un problème auquel on ne s'attendait pas (car ce système avait déja été utilisé par d'autres étudiants l'année passée pour des céréales, sans problèmes). Les croquettes se bloquent contre la paroi de la bouteille ce qui empêche la molette de tourner. 
+Nous avons discuté avec les professeurs et la seule solution que nous avons trouve est d essayer avec un autre systeme: nous devons donc tout recommencer ce qui est une perte de temps incroyable. Notre nouveau systeme sera inspiré de celui ci : http://www.instructables.com/id/Automatic-Arduino-Powered-Pet-Feeder/ 
+Nous devons donc faire un tuyau et une hélice en 3D au FabLab puis les fixer au bout des bouteilles. Nous devrons changer de moteur et prendre des Nema 17, qui sont adaptés aux impressions 3D que nous allons faire.
+Notre projet s'annonce donc plus compliqué que prevu, nous avons pris la décision de ne pas utiliser le systeme Lora mais de ne passer que par le bluetooth, car plusieurs applications existent et permettent d'utiliser des boutons, graphiques, ... que l'on place où l'on souhaite pour la fonction de notre choix.
+Nous avons commencé a fabriquer la boîte mais nous ne pouvons pas la finir car il nous manque trop d'éléments pour savoir sa dimension exacte.
+
+## Le 29/03/18 :
+La semaine dernière nous avons imprimé nos différents composants au FabLab. Nous n'avons pour l'instant fait qu'un exemplaire pour vérifier que tout fonctionne.  
