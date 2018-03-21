@@ -1,10 +1,25 @@
-# PetFeeder
+
 ![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de 
 Polytech'Nice
 Sophia.
 Ce projet est rendu réalisable grâce à nos enseignants : Monsieur Ferrero et Monsieur Masson.
+
+# PetFeeder
+![Chats et chiens](http://www.psy-qu-aux-pattes.fr/Files/Image/Template/logo-chien-et-chat_petit.gif)
+
+Ce projet est réalisé dans le cadre de la formation de prépa intégrée de 
+Polytech'Nice
+Sophia.
+Ce projet est rendu réalisable grâce à nos enseignants : Monsieur Ferrero et Monsieur Masson.
+
+## Naissance du projet :
+Notre groupe est composé de : 
+* Sophie ALLIER
+* Iléa DUFRAIGNE
+
+Nous avons décidé de former ce superbe groupe car nous partageons les mêmes idées et souhaitions faire le même projet -projet dont nous 
 
 ## Naissance du projet :
 Notre groupe est composé de : 
