@@ -9,21 +9,21 @@ Ce projet est rendu réalisable grâce à nos enseignants : Monsieur Ferrero et 
 ## Naissance du projet :
 Notre groupe est composé de : * Sophie ALLIER
                               * Iléa DUFRAIGNE
-Nous avons décidé de former ce superbe groupe car nous partageons les mêmes idées et souhaitions faire le même projet -projet dont nous avons trouvé l'idée bien avant de le commencer, l'année dernière, lorsque les étudiants du niveau supérieur et les professeurs abordaient ce sujet.
+Nous avons décidé de former ce superbe groupe car nous partageons les mêmes idées et souhaitions faire le même projet -projet dont nous avons trouvé l'idée bien avant de le commencer, l'année dernière, lorsque les étudiants du niveau supérieur et les professeurs abordaient ce sujet-.
 
 ## Description du projet :
 Nous avons choisi de réaliser un distributeur de croquettes automatique pour chien et chat : le PetFeeder.
 Nous réalisons ce projet car nous aimons les animaux domestiques en particulier les chats et les chiens que nous possédons. 
 Distribuer de la nourriture à nos animaux est une tâche quotidienne, créer ce distributeur permet donc un gain de temps et d'argent (dans le commerce ces appreils coûtent entre 70 et 180€). De plus, il permet une certaine autonomie : vous pourrez partir plusieurs jours sans avoir à vous préoccuper de vos animaux.
 
-
 ## Fonctionnalités du projet :
-Notre projet se base sur l'utilisation d'une carte Arduino etd'un module Bluetooth relié au téléphone. Il permet de nourrir deux animaux (ici un chat et un chien), qui n'ont pas forcément la même fréquence de repas et des quantités de nourriture différentes.
-A l'aide du téléphone, on peut gerer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur. Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). Cette application nommée ... permet de :                                            *
-                                                                                    *
-                                                                                    *
-
-
+Notre projet se base sur l'utilisation d'une carte Arduino et d'un module Bluetooth relié au téléphone. Il permet de nourrir deux animaux (ici un chat et un chien), qui n'ont pas forcément la même fréquence de repas et des quantités de nourriture différentes.
+A l'aide du téléphone, on peut gerer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur. Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
+Cette application nommée Bluetooth Serial Controler permet de :     
+  * recevoir une alerte sur le niveau de croquettes restantes.
+  * confirmer en appuyant sur un bouton que les croquettes doivent bien être distribuées, et dans le cas où l'animal aurait mangé avant pour des raisons particulières, de ne pas distribuer les croquettes.
+  
+Cette application est modulable : on utilise les boutons de notre choix, que l'on place à notre guise.
 
 ##  Inspirations du projet :
 (https://www.google.fr/search?client=ubuntu&channel=fs&dcr=0&biw=1375&bih=800&tbm=isch&sa=1&ei=n8g8WovvCtCwsAfBn4mIAQ&q=pet+feeder+arduino&oq=pet+feeder+ar&gs_l=psy-ab.3.0.0i19k1.12909.16918.0.17567.19.15.3.1.1.0.150.1182.14j1.15.0....0...1c.1.64.psy-ab..0.19.1223...0j0i67k1j0i30k1j0i13k1j0i13i30k1j0i5i30k1j0i24k1.0.nzgMk8fEw_0#imgrc=LQdHoUZ9O2IWuM:)
