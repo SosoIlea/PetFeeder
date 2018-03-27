@@ -43,5 +43,10 @@ Nous avons commencé a fabriquer la boîte mais nous ne pouvons pas la finir car
 ## Intermédiaire :
 Nous avons réalisé qu'un changement allait se faire : le système étant différent, la distance pour les LEDs sera différente : il n'y a plus la molette donc la distance est plus grande, la limite "presque vide" et "vide" devra être modifiée.
 
-## Le 29/03/18 :
+## Le 27/03/18 :
 La semaine dernière nous avons imprimé nos différents composants au FabLab. Nous n'avons pour l'instant fait qu'un exemplaire pour vérifier que tout fonctionne.  
+Nous avons modifié les distances pour le capteur de distancde indiquant si le réservoir est plein ou vide.
+J'ai cherché les programmes pour nos nouveaux moteurs, et adpaté ceux ci à nos anciens prograpmes couplés aux horaires de distribution.
+
+## Intermédiaire : 
+Je suis allée acheter le tuyau en T dans lequel sea l'hélice. Nous avons donc toutes les données pour commncer la boîte.
