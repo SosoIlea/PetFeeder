@@ -37,8 +37,7 @@ Nous avons réalisé qu'un changement allait se faire : le système étant diff�
 ## Le 27/03/18 : 
 La semaine dernière nous avons imprimé nos différents composants au FabLab. Nous n'avons pour l'instant fait qu'un exemplaire pour vérifier que tout fonctionne.  
 Nous avons changé les mesures pour le capteur de distance pour savoir si le réservoir est vide ou plein.
-Je me suis occupée du début de la connexion en bluetooth : vérification avec le téléphone et l'application. Début d'idées pour l'utiliser.
-
+Je me suis occupée du début de la connexion en bluetooth : le programme fonctionne mais le téléphone ne détecte pas le module, malgré plusieurs tentatives, et ce avec diffréents programmes.
 ## Intermédiaire :
 Iléa est allée acheter le tuyau en T, nous pouvons donc tester nos montages avce l'hélice et nous avons toutes les odnnées pour commencer la boîte qui contiendra le projet.
 
