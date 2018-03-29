@@ -37,11 +37,14 @@ Nous avons réalisé qu'un changement allait se faire : le système étant diff�
 ## Le 27/03/18 : 
 La semaine dernière nous avons imprimé nos différents composants au FabLab. Nous n'avons pour l'instant fait qu'un exemplaire pour vérifier que tout fonctionne.  
 Nous avons changé les mesures pour le capteur de distance pour savoir si le réservoir est vide ou plein.
-Je me suis occupée du début de la connexion en bluetooth : le programme fonctionne mais le téléphone ne détecte pas le module, malgré plusieurs tentatives, et ce avec diffréents programmes.
+Je me suis occupée du début de la connexion en bluetooth : le pr
+ogramme fonctionne mais le téléphone ne détecte pas le module, malgré plusieurs tentatives, et ce avec diffréents programmes.
+
 ## Intermédiaire :
 Iléa est allée acheter le tuyau en T, nous pouvons donc tester nos montages avce l'hélice et nous avons toutes les odnnées pour commencer la boîte qui contiendra le projet.
 
-
+## Le 29/03/18 :
+Je me suis occupée de connecter le téléphone au Bluetooth : cela a pris plus de temps que prévu, pour des raisons inconnues le programme ne répondait pas. Ensuite il fonctionnait à moitié : lorsque je changeais le nom il n'apparaissait pas comme je l'avais nommé sur le téléphone, je pensais donc qu'il n'était pas détecté, puis j'ai cliqué au hasard sur l'un des noms proposés qui était le bon. Le téléphone est donc connecté, je dois changer le nom de test pour "PetFeeder" et faire le programme afin que, lorsque l'utilisateur clique sur l'un des 2 boutons (l'application est configurée simplement mais efficacement), les horaires de distribution s'activent ou non (dans ce cas là rien ne se produit, seule la LED indiquant le niveau de croquettes est allumée).
 
 
 
