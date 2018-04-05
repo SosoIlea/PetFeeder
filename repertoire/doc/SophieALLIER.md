@@ -46,5 +46,6 @@ Iléa est allée acheter le tuyau en T, nous pouvons donc tester nos montages av
 ## Le 29/03/18 :
 Je me suis occupée de connecter le téléphone au Bluetooth : cela a pris plus de temps que prévu, pour des raisons inconnues le programme ne répondait pas. Ensuite il fonctionnait à moitié : lorsque je changeais le nom il n'apparaissait pas comme je l'avais nommé sur le téléphone, je pensais donc qu'il n'était pas détecté, puis j'ai cliqué au hasard sur l'un des noms proposés qui était le bon. Le téléphone est donc connecté, je dois changer le nom de test pour "PetFeeder" et faire le programme afin que, lorsque l'utilisateur clique sur l'un des 2 boutons (l'application est configurée simplement mais efficacement), les horaires de distribution s'activent ou non (dans ce cas là rien ne se produit, seule la LED indiquant le niveau de croquettes est allumée).
 
-
+## Le 05/04/18 :
+Nous avons fait une présentation intermédiaire de notre projet et avons discuté avce les professeurs. Nous avons cherché à arrêter le moteur une fois qu'il a tourné, pour qu'il n'y ait pas de surchauffage. Sur conseils de M. Masson, nous avons décidé de rajouter un buzzer afin d'émettre un son lors de la distribution de croquettes, pour que l'animal, qui n'a pas de notion du temps, sache qu'il peut aller manger. Nous avons donc fait les programmes et branchements.
 
