@@ -23,7 +23,7 @@ Distribuer de la nourriture à nos animaux est une tâche quotidienne, créer ce
 
 ## Fonctionnalités du projet :
 Notre projet se base sur l'utilisation d'une carte Arduino et d'un module Bluetooth relié au téléphone. Il permet de nourrir deux animaux (ici un chat et un chien), qui n'ont pas forcément la même fréquence de repas et des quantités de nourriture différentes.
-A l'aide du téléphone, on peut gerer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur. Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
+A l'aide du téléphone, on peut gérer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur, et de jouer une "mélodie" pour que l'animal sache que les croquettes ont été distribuées (car les animaux n'ont pas la notion du temps et des horaires). Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
 Cette application nommée Bluetooth Serial Controler permet de :     
   * recevoir une alerte sur le niveau de croquettes restantes.
   * confirmer en appuyant sur un bouton que les croquettes doivent bien être distribuées, et dans le cas où l'animal aurait mangé avant pour des raisons particulières, de ne pas distribuer les croquettes.
@@ -46,15 +46,17 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 - des resistances pour les LEDs
 - une plaque de connexion et des fils
 - un systeme helice-tuyau en T relié au bout de la bouteille pour faire tomber les croquettes
+- un buzzer qui préviendra l'animal qu'il peut manger
 
 ## Avancé du projet :
 - [X] Programmer les capteurs de distance avec les LEDs, programmer les horaires de distribution
 - [ ] Programmer les moteurs et trouver quelle vitesse leur donner, ainsi que le nombre de tours à effectuer pour chaque animal
 - [X] Imprimer les hélices et autres composants (les fichiers sont dans le lien donné plus haut)
 - [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés pour chaque animal
-- [ ] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
-- [ ] Relier le téléphone et le PetFeeder en Bluetooth
+- [X] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
+- [X] Relier le téléphone et le PetFeeder en Bluetooth
 - [ ] Créer la boîte et finaliser l'esthétique
+- [ ] Créer une mélodie avec le buzzer
 
 ## Problèmes rencontrés et solutions proposées :
 Notre projet de départ devait permettre de distribuer les croquettes à l'aide de molettes gérant la quantité de croquettes. Mais après avoir fixé le moteur à celles-ci et en essayant avce de véritables croquettes, nous nous sommes rendu compte que ce n'était pas la bonne solution. En effet aucune croquette ne tombait car elles faisaient pression sur les bords de la bouteilles et empechaient la molette de tourner (même avce la force humaine rien ne bougeait). Nous avons donc dû chercher un autre moyen de les faire tomber (sans croquettes, pas de projet ...). On nous a alors conseillé le site mis plus haut, qui utilsait une hélice et un tuyau, ainsi qu'un moteur plus puissant.
@@ -65,3 +67,5 @@ Ce problème nous ayant fait perdre un certain temps, nous n'avons pas pu réali
 Bien que nous parlions de chiens et chats, ce projet peut être adapté à différents animaux (poules, lapins) voire même redimensionné pour de plus gros animaux (chevaux, vaches, ...).
 
 Ensuite, nous souhaitons chacune récupérer ce magnifique projet, nous allons donc créer la boîte et utiliser du matériel différent pour chaque animal afin de pouvoir "couper" le projet.
+
+Ce projet est également présenté dans le cadre du concours Trophée Objets Connectés & Services 2018 : ![Trophée Objets Connectés & Services 2018](http://www.telecom-valley.fr/wp-content/uploads/2018/02/TOCS-2018-Header-e-mail.jpg)
