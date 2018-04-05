@@ -24,7 +24,7 @@ Distribuer de la nourriture à nos animaux est une tâche quotidienne, créer ce
 ## Fonctionnalités du projet :
 Notre projet se base sur l'utilisation d'une carte Arduino et d'un module Bluetooth relié au téléphone. Il permet de nourrir deux animaux (ici un chat et un chien), qui n'ont pas forcément la même fréquence de repas et des quantités de nourriture différentes.
 A l'aide du téléphone, on peut gérer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur, et de jouer une "mélodie" pour que l'animal sache que les croquettes ont été distribuées (car les animaux n'ont pas la notion du temps et des horaires). Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
-Cette application nommée Bluetooth Serial Controler permet de :     
+Cette application nommée Bluetooth Electronics permet de :     
   * recevoir une alerte sur le niveau de croquettes restantes.
   * confirmer en appuyant sur un bouton que les croquettes doivent bien être distribuées, et dans le cas où l'animal aurait mangé avant pour des raisons particulières, de ne pas distribuer les croquettes.
   
