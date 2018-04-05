@@ -1,3 +1,4 @@
+
 # Rapport projet DUFRAIGNE Iléa
 
 ## Le 22/12/17:
@@ -55,3 +56,4 @@ Je suis allée acheter le tuyau en T dans lequel sera l'hélice. Nous avons donc
 J'ai reussi a faire tourner le nouveau moteur. J'ai asssemble l helice avec le moteur et le tuyau. Il reste a assembler le tout avec la bouteille pour pouvoir savoir quelle dose distribuer. 
 Pour le moteur, il faut trouver comment l arreter car si il tourne trop longtemps on aura un probleme car le moteur fait chauffer la carte. 
 Nous avons fait la presentation orale du projet intermédiaire. 
+Nous allons, sur conseil de M. Masson, mettre unn buzzer afin de prévenit l'animal pour savoir quand il mangera (car les animaux n'ont pas notion du temps).
