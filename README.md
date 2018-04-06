@@ -55,8 +55,9 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 - [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés pour chaque animal
 - [X] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
 - [X] Relier le téléphone et le PetFeeder en Bluetooth
+- [ ] Faire le programme Bluetooth qui demande à l'utilisateur si on fait la distribution ou non
 - [ ] Créer la boîte et finaliser l'esthétique
-- [ ] Créer une mélodie avec le buzzer
+- [X] Créer une mélodie avec le buzzer
 
 ## Problèmes rencontrés et solutions proposées :
 Notre projet de départ devait permettre de distribuer les croquettes à l'aide de molettes gérant la quantité de croquettes. Mais après avoir fixé le moteur à celles-ci et en essayant avce de véritables croquettes, nous nous sommes rendu compte que ce n'était pas la bonne solution. En effet aucune croquette ne tombait car elles faisaient pression sur les bords de la bouteilles et empechaient la molette de tourner (même avce la force humaine rien ne bougeait). Nous avons donc dû chercher un autre moyen de les faire tomber (sans croquettes, pas de projet ...). On nous a alors conseillé le site mis plus haut, qui utilsait une hélice et un tuyau, ainsi qu'un moteur plus puissant.
