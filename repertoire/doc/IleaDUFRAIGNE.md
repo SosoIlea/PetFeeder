@@ -1,4 +1,3 @@
-
 # Rapport projet DUFRAIGNE Iléa
 
 ## Le 22/12/17:
@@ -57,3 +56,7 @@ J'ai reussi a faire tourner le nouveau moteur. J'ai asssemble l helice avec le m
 Pour le moteur, il faut trouver comment l arreter car si il tourne trop longtemps on aura un probleme car le moteur fait chauffer le driver. 
 Nous avons fait la presentation orale du projet intermédiaire. 
 Nous allons, sur conseil de M. Masson, mettre un buzzer afin de prévenir l'animal pour savoir quand il mangera (car les animaux n'ont pas notion du temps). J'ai donc cree une melodie avec le buzzer, elle sera declenchee 30 secondes avant la distribution.
+
+## Le 09/04/18:
+J'ai reussi a arreter de faire tourner le moteur et surtout arreter que le driver chauffe. 
+Il faut recoller le radiateur car la colle ne fonctionnait pas trop.
