@@ -17,7 +17,7 @@ Nous avons fait notre première présentation orale avec un diaporama et avons r
 Nous avons relié l'horloge à un moteur pour vérifier que les horaires marchent, ce qui est le cas.
 
 ## Le 07/02/18:
-Nous avons pris rendez-vous avce le FabLab afin de créer les moules pour fixer molettes et moteurs. Nous avons pour cela créé des plans sur LibreCAD en 2D. Nous avons reçu la carte Lora, qu'il a fallu souder.
+Nous avons pris rendez-vous avec le FabLab afin de créer les moules pour fixer molettes et moteurs. Nous avons pour cela créé des plans sur LibreCAD en 2D. Nous avons reçu la carte Lora, qu'il a fallu souder.
 
 ## Le 08/02/18:
 Nous sommes allées au FabLab avec nos fichiers 2D, nous avons fait de la découpe laser puis nous avons collé nos moules. Nous avons donc des molettes qui tournent avec les moteurs. La prochaine étape est de tester ceci avec de vraies croquettes pour voir si tout se passe bien.
@@ -48,3 +48,5 @@ Je me suis occupée de connecter le téléphone au Bluetooth : cela a pris plus 
 ## Le 05/04/18 :
 Nous avons fait une présentation intermédiaire de notre projet et avons discuté avec les professeurs. Nous avons cherché à arrêter le moteur une fois qu'il a tourné, pour qu'il n'y ait pas de surchauffage. Sur conseils de M. Masson, nous avons décidé de rajouter un buzzer afin d'émettre un son lors de la distribution de croquettes, pour que l'animal, qui n'a pas de notion du temps, sache qu'il peut aller manger. Nous avons donc fait les programmes et branchements.
 
+## Le 09/04/18 :
+J´ai continué de m´occuper du bluetooth. Comme le programme pour le moteur n´est pas fini, j´ai testé le bluetooth avec une LED qui s'allumait ou s'étaignait selon le bouton que l'on touchait (avec l'application du projet PetFeeder. J'ai aussi commencé à regrouper nos programmes : les horaires, le buzzer et le bluetooth. Il restera à mettre celui des distances et du moteur (en dernier quand il fonctionnera).
