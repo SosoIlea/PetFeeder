@@ -59,4 +59,5 @@ Nous allons, sur conseil de M. Masson, mettre un buzzer afin de prévenir l'anim
 
 ## Le 09/04/18:
 J'ai reussi a arreter de faire tourner le moteur et surtout arreter que le driver chauffe. 
-Il faut recoller le radiateur car la colle ne fonctionnait pas trop.
+Il faut recoller le radiateur car la colle ne fonctionnait pas trop. 
+Le driver a trop chauffé lors des tests. Il a crame nous devons le changer. Nous en avons recommandé un il faut qu'on attende de le recevoir pour savoir le nombre de tours exacts et finir le programme sur les horaires qui est presque fini. 
