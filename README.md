@@ -68,4 +68,4 @@ Ce problème nous ayant fait perdre un certain temps, nous n'avons pas pu réali
 ## Bonus :
 Bien que nous parlions de chiens et chats, ce projet peut être adapté à différents animaux (poules, lapins) voire même redimensionné pour de plus gros animaux (chevaux, vaches, ...).
 
-Ce projet est également présenté dans le cadre du concours Trophée Objets Connectés & Services 2018 : ![Trophée Objets Connectés & Services 2018](IMG_224.jpg)
+Ce projet est également présenté dans le cadre du concours Trophée Objets Connectés & Services 2018 : ![Trophée Objets Connectés & Services 2018](https://github.com/SosoIlea/PetFeeder/blob/master/repertoire/doc/IMG_2224.jpg)
