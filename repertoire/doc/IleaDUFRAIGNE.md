@@ -23,6 +23,7 @@ Nous avons aussi fini les téléchargements nécessaires pour créer notre appli
 Nous avons dû faire face à un problème : le moteur n'est pas assez puissant pour que la molette tourne bien, ou la molette est trop coincée dans la bouteille. Nous avons dnoc découpé la molette pour qu'elle tourne mieux. Nous n'avons toujours pas fixé les moteurs, il nous faut une sorte de moule reliant molette et bout du moteur pour que tout tourne.
 
 ## Le 23/01/2018:
+
 Nous avons fait notre première présentation orale avec un diaporama et avons regardé celles des autres.
 Nous avons relié l'horloge à un moteur pour vérifier que les horaires marchent, ce qui est le cas.
 
@@ -61,3 +62,7 @@ Nous allons, sur conseil de M. Masson, mettre un buzzer afin de prévenir l'anim
 J'ai reussi a arreter de faire tourner le moteur et surtout arreter que le driver chauffe. 
 Il faut recoller le radiateur car la colle ne fonctionnait pas trop. 
 Le driver a trop chauffé lors des tests. Il a crame nous devons le changer. Nous en avons recommandé un il faut qu'on attende de le recevoir pour savoir le nombre de tours exacts et finir le programme sur les horaires qui est presque fini. 
+
+## Le 02/05/18:
+Nous avons recu le nouveau driver nous allons donc refaire des tests avec la bouteille remplie. La boite est en train d'être réalisée. Nous avons recuperé l'alimentation 5V et 12V mais avec des piles pour eviter d avoir une alimentation sur secteur. 
+Nous allons faire le programme final que nous compilerons sur l'arduino. 
