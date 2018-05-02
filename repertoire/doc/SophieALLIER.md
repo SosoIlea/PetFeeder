@@ -1,3 +1,5 @@
+
+
 # Rapport projet ALLIER Sophie
 
 ## Le 22/12/17:
@@ -50,3 +52,6 @@ Nous avons fait une présentation intermédiaire de notre projet et avons discut
 
 ## Le 09/04/18 :
 J´ai continué de m´occuper du bluetooth. Comme le programme pour le moteur n´est pas fini, j´ai testé le bluetooth avec une LED qui s'allumait ou s'étaignait selon le bouton que l'on touchait (avec l'application du projet PetFeeder. J'ai aussi commencé à regrouper nos programmes : les horaires, le buzzer et le bluetooth. Il restera à mettre celui des distances et du moteur (en dernier quand il fonctionnera).
+
+## Le 02/05/18 :
+Nous avons reçu le driver, nous allons pouvoir faire de nouveau les tests. La boîte est en construction. Nous avons également trouvé une alimentation 5V pour la carte et une alimentation 12V pour le moteur afin d'éviter de brancher sur secteur.
