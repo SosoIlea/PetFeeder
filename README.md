@@ -23,10 +23,10 @@ Distribuer de la nourriture à nos animaux est une tâche quotidienne, créer ce
 
 ## Fonctionnalités du projet :
 Notre projet se base sur l'utilisation d'une carte Arduino et d'un module Bluetooth relié au téléphone. Il permet de nourrir deux animaux (ici un chat et un chien), qui n'ont pas forcément la même fréquence de repas et des quantités de nourriture différentes.
-A l'aide du téléphone, on peut gérer la quantité de croquettes distribuées et choisir à quel animal elles sont destinées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur, et de jouer une "mélodie" pour que l'animal sache que les croquettes ont été distribuées (car les animaux n'ont pas la notion du temps et des horaires). Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
+A l'aide du téléphone, on peut gérer la quantité de croquettes distribuées. Le projet permettra aussi d'indiquer si le réservoir est vide ou plein à l'aide de diodes de couleur, et de jouer une "mélodie" pour que l'animal sache que les croquettes ont été distribuées (car les animaux n'ont pas la notion du temps et des horaires). Le dispositif se déclenche a des horaires précis, ce qui permet au maître de ne pas être forcément présent. Nous utiliserons une application déja existante sur Android afin de connecter notre téléphone (notre niveau de programmation étant trop faible pour en créer une dans les temps). 
 Cette application nommée Bluetooth Electronics permet de :     
-  * recevoir une alerte sur le niveau de croquettes restantes.
-  * confirmer en appuyant sur un bouton que les croquettes doivent bien être distribuées, et dans le cas où l'animal aurait mangé avant pour des raisons particulières, de ne pas distribuer les croquettes.
+  * dans le cas où l'animal aurait mangé avant pour des raisons particulières, de ne pas distribuer les croquettes
+  * confirmer en appuyant sur un bouton que les croquettes doivent bien être distribuées, si on est présent
   
 Cette application est modulable : on utilise les boutons de notre choix, que l'on place à notre guise.
 
@@ -35,27 +35,28 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 
 ## Matériel utilisé : 
 - une boite qui contiendra l'ensemble pour un côté esthétique
-- 2 bouteilles qui contiendront croquettes pour chat et croquettes pour chien séparemment
-- 2 gamelles
-- 2 moteurs pas à pas Nema 17 qui feront tourner les hélices
+- 1 bouteille qui contiendra les croquettes 
+- 1 gamelle
+- 1 moteur pas à pas Nema 17 qui fera tourner l'hélice
 - un systeme Bluetooth 
-- 6 LEDS (2 rouges, 2 jaunes, 2 vertes) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, jaune = prevention).
+- 3 LEDS (1 rouge, 1 jaune, 1 verte) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, jaune = prevention).
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes
-- deux cartes Arduino Xplained d'Atmel
+- une carte Arduino Xplained d'Atmel
 - une horloge RTC 1302
 - des resistances pour les LEDs
 - une plaque de connexion et des fils
 - un systeme helice-tuyau en T relié au bout de la bouteille pour faire tomber les croquettes
+- une pièce de piscine pour relier bouteille et tuyau, avec de la colle
 - un buzzer qui préviendra l'animal qu'il peut manger
 
 ## Avancé du projet :
 - [X] Programmer les capteurs de distance avec les LEDs, programmer les horaires de distribution
 - [ ] Programmer les moteurs et trouver quelle vitesse leur donner, ainsi que le nombre de tours à effectuer pour chaque animal
 - [X] Imprimer les hélices et autres composants (les fichiers sont dans le lien donné plus haut)
-- [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés pour chaque animal
+- [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés
 - [X] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
 - [X] Relier le téléphone et le PetFeeder en Bluetooth
-- [ ] Faire le programme Bluetooth qui demande à l'utilisateur si on fait la distribution ou non
+- [X] Faire le programme Bluetooth qui demande à l'utilisateur si on fait la distribution ou non
 - [ ] Créer la boîte et finaliser l'esthétique
 - [X] Créer une mélodie avec le buzzer
 
@@ -66,7 +67,5 @@ Ce problème nous ayant fait perdre un certain temps, nous n'avons pas pu réali
 
 ## Bonus :
 Bien que nous parlions de chiens et chats, ce projet peut être adapté à différents animaux (poules, lapins) voire même redimensionné pour de plus gros animaux (chevaux, vaches, ...).
-
-Ensuite, nous souhaitons chacune récupérer ce magnifique projet, nous allons donc créer la boîte et utiliser du matériel différent pour chaque animal afin de pouvoir "couper" le projet.
 
 Ce projet est également présenté dans le cadre du concours Trophée Objets Connectés & Services 2018 : ![Trophée Objets Connectés & Services 2018](http://www.telecom-valley.fr/wp-content/uploads/2018/02/TOCS-2018-Header-e-mail.jpg)
