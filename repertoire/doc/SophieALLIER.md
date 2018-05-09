@@ -54,3 +54,6 @@ J´ai continué de m´occuper du bluetooth. Comme le programme pour le moteur n�
 
 ## Le 02/05/18 :
 Nous avons reçu le driver, nous allons pouvoir faire de nouveau les tests. La boîte est en construction. Nous avons également trouvé une alimentation 5V pour la carte et une alimentation 12V pour le moteur afin d'éviter de brancher sur secteur. Nous avons regroupé tous les programmes, il restera à modifier celui du moteur pour savoir le nombre de tours. Nous avons également téléchargé le logiciel Fritzing. 
+
+## Le 09/05/18 :
+La boîte est finie, nous attendons la carte Arduino Mega car la nano n'a pas assez d'entrées pour nos branchements. J'ai regroupé les LEDs, l'horloge, le capteur de distance et le buzzer sur la plaque, puis j'ai fixé avce du scotch.
