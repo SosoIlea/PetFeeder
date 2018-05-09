@@ -66,3 +66,6 @@ Le driver a trop chauffé lors des tests. Il a crame nous devons le changer. Nou
 ## Le 02/05/18:
 Nous avons recu le nouveau driver nous allons donc refaire des tests avec la bouteille remplie. La boite est en train d'être réalisée. Nous avons recuperé l'alimentation 5V et 12V mais avec des piles pour eviter d avoir une alimentation sur secteur. 
 Nous allons faire le programme final que nous compilerons sur l'arduino. 
+
+## Le 09/05/18
+Le moteur tourne. La boite est finie. Il faut juste faire les tests avec la bouteille remplie et recevoir la carte arduino Mega car on a trop de branchement pour la carte arduino Nano classique. 
