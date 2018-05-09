@@ -41,7 +41,7 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 - un systeme Bluetooth 
 - 3 LEDS (1 rouge, 1 jaune, 1 verte) qui indiqueront la quantité de croquettes restantes (Rouge = vide, vert= plein, jaune = prevention).
 - un capteur de distance qui sera relié aux LEDs pour indiquer la quantité de croquettes restantes
-- une carte Arduino Xplained d'Atmel
+- une carte Arduino Mega Xplained d'Atmel
 - une horloge RTC 1302
 - des resistances pour les LEDs
 - une plaque de connexion et des fils
