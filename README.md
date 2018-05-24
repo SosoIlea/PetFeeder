@@ -51,13 +51,13 @@ Notre projet ressemblera à ceci pour le [fonctionnement](http://www.instructabl
 
 ## Avancé du projet :
 - [X] Programmer les capteurs de distance avec les LEDs, programmer les horaires de distribution
-- [ ] Programmer les moteurs et trouver quelle vitesse leur donner, ainsi que le nombre de tours à effectuer pour chaque animal
+- [X] Programmer les moteurs et trouver quelle vitesse leur donner, ainsi que le nombre de tours à effectuer pour chaque animal
 - [X] Imprimer les hélices et autres composants (les fichiers sont dans le lien donné plus haut)
 - [X] Tester le programme gérant la quantité de croquettes restantes et les horaires programmés
 - [X] Tester les moteurs reliés aux hélices, avec le tuyau en T, et des croquettes
 - [X] Relier le téléphone et le PetFeeder en Bluetooth
 - [X] Faire le programme Bluetooth qui demande à l'utilisateur si on fait la distribution ou non
-- [ ] Créer la boîte et finaliser l'esthétique
+- [X] Créer la boîte et finaliser l'esthétique
 - [X] Créer une mélodie avec le buzzer
 
 ## Problèmes rencontrés et solutions proposées :
