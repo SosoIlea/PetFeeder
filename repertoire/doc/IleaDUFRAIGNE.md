@@ -69,3 +69,12 @@ Nous allons faire le programme final que nous compilerons sur l'arduino.
 
 ## Le 09/05/18
 Le moteur tourne. La boite est finie. Il faut juste faire les tests avec la bouteille remplie et recevoir la carte arduino Mega car on a trop de branchement pour la carte arduino Nano classique. 
+
+## Le 24/05/18
+J'ai fait les tests avec des croquettes pour savoir exactement le nombre de tour à faire pour le moteur, j'ai donc fini le programme final du PetFeeder, il nous reste plus qu'à faire tous les montages et tout tester en même temps. 
+
+## Le 25/05/18
+Avec Sophie, nous avons fait les branchements finaux du PetFeeder, et nous avons teste. Nous nous sommes rendus compte qu'il ne fallait pas mettre de scotch sur le capteur de distance car cela faussait les données et n'allumait pas la bonne LED. 
+Nous avons donc teste et cela marche ! Notre PetFeeder marche ! 
+Nous avons donc filme des videos pour pouvoir les montrer pendant la démonstration du vendredi 1er juin car notre distributeur ne distribue qu'à des horaires précis: nous avons filme une vidéo pour distribuer les croquettes, une video pour ne pas distribuer les croquettes, une video ou l'on voit le moteur qui tourne , une video ou l'on voit les leds changer de couleurs en fonction de la quantité de croquette et une video ou l'on voit le chien qui mange les croquettes. 
+
