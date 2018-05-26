@@ -57,3 +57,9 @@ Nous avons reçu le driver, nous allons pouvoir faire de nouveau les tests. La b
 
 ## Le 09/05/18 :
 La boîte est finie, nous attendons la carte Arduino Mega car la nano n'a pas assez d'entrées pour nos branchements. J'ai regroupé les LEDs, l'horloge, le capteur de distance et le buzzer sur la plaque, puis j'ai fixé avce du scotch.
+
+## Le 24/05/18 : 
+Iléa a fait tourner le moteur pour savoir le temps exact nécessaire à la distribution de la bonne quantité de croquettes.
+
+## Le 25/05/18 :
+Avec Iléa, nous avons fait les branchements finaux du PetFeeder, et nous avons testé le programme qui regroupe le tout. Nous nous sommes rendu compte qu'il ne fallait pas mettre de scotch sur le capteur de distance car cela faussait les données et n'allumait que la LED verte même avce un réservoir vide. Nous avons donc testé et fini la boîte (on a fait un trou pour laisser passer le câble relié au moteur) et cela marche ! Notre PetFeeder marche enfin ! Nous avons donc filmé pour pouvoir montrer notre projet pendant la démonstration du vendredi 1er juin (car notre distributeur ne distribue qu'à des horaires précis: on a donc fait une vidéo pour distribuer les croquettes, une video pour ne pas distribuer les croquettes, une video où l'on voit le moteur qui tourne et qui distribue les croquettes et une video où l'on voit le chien d'Iléa qui mange les croquettes. Sur certaines vidéos on peut voir les LED changer de couleur selon comment est rempli le réservoir. Plutôt que de prendre trois piles 1,5V nous avons pris une batterie externe, cela permet d'y accéder plus aisément.
